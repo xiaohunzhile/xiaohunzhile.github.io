@@ -79,9 +79,9 @@
                             <div class="designation">
                                 Hi i’m
                                 <div class="typing-title">
-                                    <p>a <strong>web developer.</strong></p>
-                                    <p>a <strong>web Designer.</strong></p>
-                                    <p>a <strong>photographer.</strong></p>
+                                    <p>a <strong>f/z.</strong></p>
+                                    <p>a <strong>robot.</strong></p>
+                                    <p>a <strong>Ai.</strong></p>
                                 </div>
                                 <span class="typed-title"></span>
                             </div>
@@ -100,7 +100,7 @@
                         <header class="header">
                             <ul class="main-menu">
                                 <li class="home"><a class="logo" href="index.html"><img src="images/logo.png" alt=""></a></li>
-                                <li class="active"><a href="#blog"><i class="flaticon-blog"></i>Blog</a></li>
+                                <li class="active"><a href="#blog"><i class="flaticon-blog"></i>妮露</a></li>
                             </ul>
                         </header>
 
@@ -114,41 +114,19 @@
                                             <img src="images/gallery/1-1.png" alt="">
                                         </div>
                                         <div class="date"><strong>妮露</strong> <br>原神</div>
-                                            <div class="inner-box">
-                                                <figure class="image">
-                                                    <img src="images/gallery/nilu/001.png" alt="image">
-                                                    <div class="overlay">
-                                                    <a class="lightbox-image option-btn" title="Image Caption Here" data-fancybox-group="example-gallery" href="images/gallery/nilu/001.png">
-                                                    <i class="fa fa-search"></i>
-                                                    </a>
-                                                    </div>
-                                                </figure>
-                                            </div>
                                         <script>
-                                            let arr = [
-                                            "001",
-                                            "002",
-                                            "003",
-                                            "004",
-                                            "005",
-                                            "006",
-                                            "007",
-                                            "008",
-                                            "009",
-                                            "010",
-                                            "011",
-                                            "012",
-                                            "013",
-                                            "014",
-                                            "015",
-                                            "016",
-                                            "017",
-                                            "018",
-                                            "019",
-                                            "020",
-                                            "021",
-                                            "022",
-                                            ]
+                                            let arr = [];
+                                            <!-- 创建数组从001至n -->
+                                            for (var i=1; i<23 ;i++){
+                                                if(i<10){
+                                                    arr.push("00"+i);
+                                                }else if(i<100){
+                                                    arr.push("0"+i);
+                                                }else{
+                                                    arr.push(i);
+                                                }
+                                            }
+                                            <!-- 依次将图片进行显示 -->
                                             arr.forEach((v,i)=>{
                                                 let dom = `
                                             <div class="inner-box">
