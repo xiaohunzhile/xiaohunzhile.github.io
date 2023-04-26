@@ -1,0 +1,703 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Ginshen-Keqing</title>
+<!-- Stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+
+<!--Favicon-->
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body>
+
+<div class="page-wrapper default-version">
+ 	
+    <!-- Preloader -->
+    <div class="preloader"></div>
+
+    <div class="page-background">
+        <div class="image-1"><img src="images/icons/shape/icon-1.png" alt=""></div>
+        <div class="image-7"><img src="images/icons/shape/icon-7.png" alt=""></div>
+        <canvas id="canvas"></canvas>
+    </div>
+    
+    <!-- Mobile menu -->
+    <div class="mobile-menu">
+        <div class="container">
+            <!--Nav Outer-->
+            <div class="nav-outer clearfix">
+                <div class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+                <!-- Main Menu -->
+                <nav class="main-menu">
+                    <div class="navbar-header">
+                        <!-- Toggle Button -->      
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    
+                    <div class="navbar-collapse collapse scroll-nav clearfix">
+                        <ul class="navigation clearfix">
+                            
+                            <li class="current"><a href="#home">Home</a></li>
+                            <li><a href="#about">刻晴0-50</a></li>
+                            <li><a href="#resume">刻晴51-100</a></li>
+                            <li><a href="#services">刻晴101-150</a></li>
+                            <li><a href="#work">刻晴151-200</a></li>
+                            <li><a href="#blog">刻晴201-250</a></li>
+                            <li><a href="#contact">刻晴251-300</a></li>
+
+                         </ul>
+                    </div>
+                </nav>
+                <!-- Main Menu End-->                        
+            </div>
+            <!--Nav Outer End-->            
+        </div>
+    </div>
+ 	
+    <div class="card-outer">
+        <div class="scroll-box">
+            <div class="container" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
+                <div class="card-wrapper">
+                    <div class="author-info" style="background-image:url(images/background/3.jpg)">
+                        <div class="image"><img src="images/resource/user.png" alt=""></div>
+                        <div class="author">
+                            <h3>我的博客</h3>
+                            <div class="designation">
+                                你好，我是
+                                <div class="typing-title">
+                                    <p>一个 <strong>python学习爱好者</strong></p>
+                                    <p>一个 <strong>游戏玩家</strong></p>
+                                    <p>一个 <strong>电影爱好者</strong></p>
+                                </div>
+                                <span class="typed-title"></span>
+                            </div>
+                        </div>
+                        <div class="link-btn">
+                            <a href="http://www.17sucai.com/" class="theme-btn btn-style-one">Download CV</a>
+                        </div>
+                        <ul class="social-icon-two">
+                            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                            <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                            <li><a href="#"><span class="fa fa-pinterest"></span></a></li>
+                        </ul>
+                    </div>
+                    <div class="card-inner-box">
+                        <header class="header wow fadeInLeft" data-wow-duration="1.5s">
+                            <ul class="main-menu">
+                                <li class="active home"><a class="logo" href="index.html"><img src="images/logo.png" alt=""></a></li>
+                                <li><a href="#about"><i class="flaticon-blog"></i>刻晴0-50</a></li>
+                                <li><a href="#resume"><i class="flaticon-blog"></i>刻晴51-100</a></li>
+                                <li><a href="#services"><i class="flaticon-blog"></i>刻晴101-150</a></li>
+                                <li><a href="#work"><i class="flaticon-blog"></i>刻晴151-200</a></li>
+                                <li><a href="#blog"><i class="flaticon-blog"></i>刻晴201-250</a></li>
+                                <li><a href="#contact"><i class="flaticon-blog"></i>刻晴251-300</a></li>
+                            </ul>
+                        </header>
+
+                        <!-- card item -->
+                        <div class="card-home card-item active" id="home" style="background-image:url(images/background/1.jpg)">
+
+                            <div class="card-inner wow fadeInUp" data-wow-duration="2s">
+                                <div class="image"><img src="images/resource/user.png" alt=""></div>
+                                <div class="author">
+                                    <h3>沙包云</h3>
+                                    <div class="designation">
+                                        你好，我是
+                                        <div class="typing-title">
+                                            <p>一个 <strong>python学习爱好者</strong></p>
+                                            <p>一个 <strong>游戏玩家</strong></p>
+                                            <p>一个 <strong>电影爱好者</strong></p>
+                                        </div>
+                                        <span class="typed-title"></span>
+                                    </div>
+                                </div>
+                                <div class="text">这个网页是用来保存个人的图片以及浏览记录，记录下当前的学习资料.</div>
+                                <div class="link-btn">
+                                    <a href="#" class="theme-btn btn-style-one">这是一个按钮</a>
+                                    <a href="#" class="theme-btn btn-style-two">这也是个按钮</a>
+                                </div>
+                                <ul class="social-icon-two">
+                                    <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                                    <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                                    <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                                    <li><a href="#"><span class="fa fa-pinterest"></span></a></li>
+                                    <li><a href="#"><span class="fa fa-dribbble"></span></a></li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        <!-- end item -->
+
+                        <!-- card item -->
+                        <div class="card-about card-item" id="about" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner">
+                                <h4 class="title">New Pic</h4>
+                                <div class="news-block">
+                                    <div id='keqing0',class="inner-box">
+                                        <div class="image">
+                                            <img src="images/gallery/2-1.png" alt="">
+                                        </div>
+                                        <div class="date"><strong>刻晴</strong> <br>原神</div>
+                                        <script>
+                                            let arr = [];
+                                            <!-- 创建数组从001至n -->
+                                            for (var i=1; i<23 ;i++){
+                                                if(i<10){
+                                                    arr.push("00"+i);
+                                                }else if(i<100){
+                                                    arr.push("0"+i);
+                                                }else{
+                                                    arr.push(i);
+                                                }
+                                            }
+                                            <!-- 依次将图片进行显示 -->
+                                            arr.forEach((v,i)=>{
+                                                let dom = `
+                                            <div class="inner-box">
+                                                <figure class="image">
+                                                    <img src="images/gallery/nilu/${v}.png" alt="image">
+                                                    <div class="overlay">
+                                                    <a class="lightbox-image option-btn" title="Image Caption Here" data-fancybox-group="example-gallery" href="images/gallery/nilu/${v}.png">
+                                                    <i class="fa fa-search"></i>
+                                                    </a>
+                                                    </div>
+                                                </figure>
+                                            </div>
+                                            `
+                                            keqing0.innerHTML += dom
+                                            })
+                                        </script>
+
+                                    </div>
+                                </div>
+                                <!-- share box -->
+                                <ul class="share-box">
+                                    <li><strong>Tags:</strong></li>
+                                    <li><a href="#">Ginshin,</a></li>
+                                    <li><a href="#">nilu,</a></li>
+                                    <li><a href="#">red hair</a></li>
+                                </ul>
+                                <!-- Comments Area -->
+                                <div class="comments-area">
+                                    <div class="group-title"><h2>评论/留言</h2></div>
+
+                                    <!--Comment Box-->
+                                    <div class="comment-box">
+                                        <div class="comment">
+                                            <div class="author-thumb"><img src="images/resource/author-2.jpg" alt=""></div>
+                                            <div class="comment-inner">
+                                                <div class="comment-info clearfix"><strong>埃尔海森</strong><div class="comment-time">26 Nov,2018 At 8:30am</div></div>
+                                                <div class="text">智慧是智慧之神的敌人，对此我并无异议。</div>
+                                                <a class="comment-reply" href="#"><span class="icon fa fa-mail-reply"></span> 回复</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--Comment Box-->
+                                    <div class="comment-box">
+                                        <div class="comment">
+                                            <div class="author-thumb"><img src="images/resource/author-3.jpg" alt=""></div>
+                                            <div class="comment-inner">
+                                                <div class="comment-info clearfix"><strong>Edward Chapman</strong><div class="comment-time">26 Nov,2018 At 8:30am</div></div>
+                                                <div class="text">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward</div>
+                                                <a class="comment-reply" href="#"><span class="icon fa fa-mail-reply"></span> Reply</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- Contact Form -->
+                                <div class="contact-form">
+                                    <!--Comment Form-->
+                                    <form method="post" action="sendemail.php" id="contact-form">
+                                        <div class="row clearfix">
+
+                                            <div class="col-md-6 form-group">
+                                                <input type="text" name="username" placeholder="Name" required>
+                                            </div>
+
+                                            <div class="col-md-6 form-group">
+                                                <input type="email" name="email" placeholder="Email" required>
+                                            </div>
+
+                                            <div class="col-lg-12 col-md-12 form-group">
+                                                <textarea name="message" placeholder="Message"></textarea>
+                                            </div>
+
+                                            <div class="col-lg-12 col-md-12 form-group">
+                                                <button class="theme-btn btn-style-two" type="submit" name="submit-form">Submit Now </button>
+                                            </div>
+
+                                        </div>
+                                    </form>
+
+                                </div>
+                                <!--End Contact Form -->
+                            </div>
+                        </div>
+                        <!-- end item -->
+
+                        <!-- card item -->
+                        <div class="card-resume card-item" id="resume" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner">
+                                <h4 class="title">New Pic</h4>
+                                <div class="news-block">
+                                    <div id='keqing51',class="inner-box">
+                                        <div class="image">
+                                            <img src="images/gallery/2-1.png" alt="">
+                                        </div>
+                                        <div class="date"><strong>刻晴</strong> <br>原神</div>
+                                        <script>
+                                            let arr51 = [];
+                                            <!-- 创建数组从001至n -->
+                                            for (var i=1; i<23 ;i++){
+                                                if(i<10){
+                                                    arr51.push("00"+i);
+                                                }else if(i<100){
+                                                    arr51.push("0"+i);
+                                                }else{
+                                                    arr51.push(i);
+                                                }
+                                            }
+                                            <!-- 依次将图片进行显示 -->
+                                            arr51.forEach((v,i)=>{
+                                                let dom = `
+                                            <div class="inner-box">
+                                                <figure class="image">
+                                                    <img src="images/gallery/keqing/${v}.png" alt="image">
+                                                    <div class="overlay">
+                                                    <a class="lightbox-image option-btn" title="Image Caption Here" data-fancybox-group="example-gallery" href="images/gallery/keqing/${v}.png">
+                                                    <i class="fa fa-search"></i>
+                                                    </a>
+                                                    </div>
+                                                </figure>
+                                            </div>
+                                            `
+                                            keqing51.innerHTML += dom
+                                            })
+                                        </script>
+
+                                    </div>
+                                </div>
+                                <!-- share box -->
+                                <ul class="share-box">
+                                    <li><strong>Tags:</strong></li>
+                                    <li><a href="#">Ginshin,</a></li>
+                                    <li><a href="#">nilu,</a></li>
+                                    <li><a href="#">red hair</a></li>
+                                </ul>
+                                <!-- Comments Area -->
+                                <div class="comments-area">
+                                    <div class="group-title"><h2>评论/留言</h2></div>
+
+                                    <!--Comment Box-->
+                                    <div class="comment-box">
+                                        <div class="comment">
+                                            <div class="author-thumb"><img src="images/resource/author-2.jpg" alt=""></div>
+                                            <div class="comment-inner">
+                                                <div class="comment-info clearfix"><strong>埃尔海森</strong><div class="comment-time">26 Nov,2018 At 8:30am</div></div>
+                                                <div class="text">智慧是智慧之神的敌人，对此我并无异议。</div>
+                                                <a class="comment-reply" href="#"><span class="icon fa fa-mail-reply"></span> 回复</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--Comment Box-->
+                                    <div class="comment-box">
+                                        <div class="comment">
+                                            <div class="author-thumb"><img src="images/resource/author-3.jpg" alt=""></div>
+                                            <div class="comment-inner">
+                                                <div class="comment-info clearfix"><strong>Edward Chapman</strong><div class="comment-time">26 Nov,2018 At 8:30am</div></div>
+                                                <div class="text">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward</div>
+                                                <a class="comment-reply" href="#"><span class="icon fa fa-mail-reply"></span> Reply</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- end item -->
+                        <!-- card item -->
+                        <div class="card-services card-item" id="services" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner">
+                                <h4 class="title">New Pic</h4>
+                                <div class="news-block">
+                                    <div id='keqing101',class="inner-box">
+                                        <div class="image">
+                                            <img src="images/gallery/2-1.png" alt="">
+                                        </div>
+                                        <div class="date"><strong>刻晴</strong> <br>原神</div>
+                                        <script>
+                                            let arr101 = [];
+                                            <!-- 创建数组从001至n -->
+                                            for (var i=1; i<23 ;i++){
+                                                if(i<10){
+                                                    arr101.push("00"+i);
+                                                }else if(i<100){
+                                                    arr101.push("0"+i);
+                                                }else{
+                                                    arr101.push(i);
+                                                }
+                                            }
+                                            <!-- 依次将图片进行显示 -->
+                                            arr101.forEach((v,i)=>{
+                                                let dom = `
+                                            <div class="inner-box">
+                                                <figure class="image">
+                                                    <img src="images/gallery/nilu/${v}.png" alt="image">
+                                                    <div class="overlay">
+                                                    <a class="lightbox-image option-btn" title="Image Caption Here" data-fancybox-group="example-gallery" href="images/gallery/nilu/${v}.png">
+                                                    <i class="fa fa-search"></i>
+                                                    </a>
+                                                    </div>
+                                                </figure>
+                                            </div>
+                                            `
+                                            keqing101.innerHTML += dom
+                                            })
+                                        </script>
+
+                                    </div>
+                                </div>
+                                <!-- share box -->
+                                <ul class="share-box">
+                                    <li><strong>Tags:</strong></li>
+                                    <li><a href="#">Ginshin,</a></li>
+                                    <li><a href="#">nilu,</a></li>
+                                    <li><a href="#">red hair</a></li>
+                                </ul>
+                                <!-- Comments Area -->
+                                <div class="comments-area">
+                                    <div class="group-title"><h2>评论/留言</h2></div>
+
+                                    <!--Comment Box-->
+                                    <div class="comment-box">
+                                        <div class="comment">
+                                            <div class="author-thumb"><img src="images/resource/author-2.jpg" alt=""></div>
+                                            <div class="comment-inner">
+                                                <div class="comment-info clearfix"><strong>埃尔海森</strong><div class="comment-time">26 Nov,2018 At 8:30am</div></div>
+                                                <div class="text">智慧是智慧之神的敌人，对此我并无异议。</div>
+                                                <a class="comment-reply" href="#"><span class="icon fa fa-mail-reply"></span> 回复</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--Comment Box-->
+                                    <div class="comment-box">
+                                        <div class="comment">
+                                            <div class="author-thumb"><img src="images/resource/author-3.jpg" alt=""></div>
+                                            <div class="comment-inner">
+                                                <div class="comment-info clearfix"><strong>Edward Chapman</strong><div class="comment-time">26 Nov,2018 At 8:30am</div></div>
+                                                <div class="text">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward</div>
+                                                <a class="comment-reply" href="#"><span class="icon fa fa-mail-reply"></span> Reply</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- end item -->
+                        <!-- card item -->
+                        <div class="card-projects card-item" id="work" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner">
+                                <h4 class="title">New Pic</h4>
+                                <div class="news-block">
+                                    <div id='keqing151',class="inner-box">
+                                        <div class="image">
+                                            <img src="images/gallery/2-1.png" alt="">
+                                        </div>
+                                        <div class="date"><strong>刻晴</strong> <br>原神</div>
+                                        <script>
+                                            let arr151 = [];
+                                            <!-- 创建数组从001至n -->
+                                            for (var i=1; i<23 ;i++){
+                                                if(i<10){
+                                                    arr151.push("00"+i);
+                                                }else if(i<100){
+                                                    arr151.push("0"+i);
+                                                }else{
+                                                    arr151.push(i);
+                                                }
+                                            }
+                                            <!-- 依次将图片进行显示 -->
+                                            arr151.forEach((v,i)=>{
+                                                let dom = `
+                                            <div class="inner-box">
+                                                <figure class="image">
+                                                    <img src="images/gallery/nilu/${v}.png" alt="image">
+                                                    <div class="overlay">
+                                                    <a class="lightbox-image option-btn" title="Image Caption Here" data-fancybox-group="example-gallery" href="images/gallery/nilu/${v}.png">
+                                                    <i class="fa fa-search"></i>
+                                                    </a>
+                                                    </div>
+                                                </figure>
+                                            </div>
+                                            `
+                                            keqing151.innerHTML += dom
+                                            })
+                                        </script>
+
+                                    </div>
+                                </div>
+                                <!-- share box -->
+                                <ul class="share-box">
+                                    <li><strong>Tags:</strong></li>
+                                    <li><a href="#">Ginshin,</a></li>
+                                    <li><a href="#">nilu,</a></li>
+                                    <li><a href="#">red hair</a></li>
+                                </ul>
+                                <!-- Comments Area -->
+                                <div class="comments-area">
+                                    <div class="group-title"><h2>评论/留言</h2></div>
+
+                                    <!--Comment Box-->
+                                    <div class="comment-box">
+                                        <div class="comment">
+                                            <div class="author-thumb"><img src="images/resource/author-2.jpg" alt=""></div>
+                                            <div class="comment-inner">
+                                                <div class="comment-info clearfix"><strong>埃尔海森</strong><div class="comment-time">26 Nov,2018 At 8:30am</div></div>
+                                                <div class="text">智慧是智慧之神的敌人，对此我并无异议。</div>
+                                                <a class="comment-reply" href="#"><span class="icon fa fa-mail-reply"></span> 回复</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--Comment Box-->
+                                    <div class="comment-box">
+                                        <div class="comment">
+                                            <div class="author-thumb"><img src="images/resource/author-3.jpg" alt=""></div>
+                                            <div class="comment-inner">
+                                                <div class="comment-info clearfix"><strong>Edward Chapman</strong><div class="comment-time">26 Nov,2018 At 8:30am</div></div>
+                                                <div class="text">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward</div>
+                                                <a class="comment-reply" href="#"><span class="icon fa fa-mail-reply"></span> Reply</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- end item -->
+                        <!-- card item -->
+                        <div class="card-blog card-item" id="blog" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner">
+                                <h4 class="title">New Pic</h4>
+                                <div class="news-block">
+                                    <div id='keqing201',class="inner-box">
+                                        <div class="image">
+                                            <img src="images/gallery/2-1.png" alt="">
+                                        </div>
+                                        <div class="date"><strong>刻晴</strong> <br>原神</div>
+                                        <script>
+                                            let arr201 = [];
+                                            <!-- 创建数组从001至n -->
+                                            for (var i=1; i<23 ;i++){
+                                                if(i<10){
+                                                    arr201.push("00"+i);
+                                                }else if(i<100){
+                                                    arr201.push("0"+i);
+                                                }else{
+                                                    arr201.push(i);
+                                                }
+                                            }
+                                            <!-- 依次将图片进行显示 -->
+                                            arr201.forEach((v,i)=>{
+                                                let dom = `
+                                            <div class="inner-box">
+                                                <figure class="image">
+                                                    <img src="images/gallery/nilu/${v}.png" alt="image">
+                                                    <div class="overlay">
+                                                    <a class="lightbox-image option-btn" title="Image Caption Here" data-fancybox-group="example-gallery" href="images/gallery/nilu/${v}.png">
+                                                    <i class="fa fa-search"></i>
+                                                    </a>
+                                                    </div>
+                                                </figure>
+                                            </div>
+                                            `
+                                            keqing201.innerHTML += dom
+                                            })
+                                        </script>
+
+                                    </div>
+                                </div>
+                                <!-- share box -->
+                                <ul class="share-box">
+                                    <li><strong>Tags:</strong></li>
+                                    <li><a href="#">Ginshin,</a></li>
+                                    <li><a href="#">nilu,</a></li>
+                                    <li><a href="#">red hair</a></li>
+                                </ul>
+                                <!-- Comments Area -->
+                                <div class="comments-area">
+                                    <div class="group-title"><h2>评论/留言</h2></div>
+
+                                    <!--Comment Box-->
+                                    <div class="comment-box">
+                                        <div class="comment">
+                                            <div class="author-thumb"><img src="images/resource/author-2.jpg" alt=""></div>
+                                            <div class="comment-inner">
+                                                <div class="comment-info clearfix"><strong>埃尔海森</strong><div class="comment-time">26 Nov,2018 At 8:30am</div></div>
+                                                <div class="text">智慧是智慧之神的敌人，对此我并无异议。</div>
+                                                <a class="comment-reply" href="#"><span class="icon fa fa-mail-reply"></span> 回复</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--Comment Box-->
+                                    <div class="comment-box">
+                                        <div class="comment">
+                                            <div class="author-thumb"><img src="images/resource/author-3.jpg" alt=""></div>
+                                            <div class="comment-inner">
+                                                <div class="comment-info clearfix"><strong>Edward Chapman</strong><div class="comment-time">26 Nov,2018 At 8:30am</div></div>
+                                                <div class="text">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward</div>
+                                                <a class="comment-reply" href="#"><span class="icon fa fa-mail-reply"></span> Reply</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- end item -->
+                        <!-- card item -->
+                        <div class="card-contact card-item" id="contact" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner">
+                                <h4 class="title">New Pic</h4>
+                                <div class="news-block">
+                                    <div id='keqing251',class="inner-box">
+                                        <div class="image">
+                                            <img src="images/gallery/2-1.png" alt="">
+                                        </div>
+                                        <div class="date"><strong>刻晴</strong> <br>原神</div>
+                                        <script>
+                                            let arr251 = [];
+                                            <!-- 创建数组从001至n -->
+                                            for (var i=1; i<23 ;i++){
+                                                if(i<10){
+                                                    arr251.push("00"+i);
+                                                }else if(i<100){
+                                                    arr251.push("0"+i);
+                                                }else{
+                                                    arr251.push(i);
+                                                }
+                                            }
+                                            <!-- 依次将图片进行显示 -->
+                                            arr251.forEach((v,i)=>{
+                                                let dom = `
+                                            <div class="inner-box">
+                                                <figure class="image">
+                                                    <img src="images/gallery/nilu/${v}.png" alt="image">
+                                                    <div class="overlay">
+                                                    <a class="lightbox-image option-btn" title="Image Caption Here" data-fancybox-group="example-gallery" href="images/gallery/nilu/${v}.png">
+                                                    <i class="fa fa-search"></i>
+                                                    </a>
+                                                    </div>
+                                                </figure>
+                                            </div>
+                                            `
+                                            keqing251.innerHTML += dom
+                                            })
+                                        </script>
+
+                                    </div>
+                                </div>
+                                <!-- share box -->
+                                <ul class="share-box">
+                                    <li><strong>Tags:</strong></li>
+                                    <li><a href="#">Ginshin,</a></li>
+                                    <li><a href="#">nilu,</a></li>
+                                    <li><a href="#">red hair</a></li>
+                                </ul>
+                                <!-- Comments Area -->
+                                <div class="comments-area">
+                                    <div class="group-title"><h2>评论/留言</h2></div>
+
+                                    <!--Comment Box-->
+                                    <div class="comment-box">
+                                        <div class="comment">
+                                            <div class="author-thumb"><img src="images/resource/author-2.jpg" alt=""></div>
+                                            <div class="comment-inner">
+                                                <div class="comment-info clearfix"><strong>埃尔海森</strong><div class="comment-time">26 Nov,2018 At 8:30am</div></div>
+                                                <div class="text">智慧是智慧之神的敌人，对此我并无异议。</div>
+                                                <a class="comment-reply" href="#"><span class="icon fa fa-mail-reply"></span> 回复</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--Comment Box-->
+                                    <div class="comment-box">
+                                        <div class="comment">
+                                            <div class="author-thumb"><img src="images/resource/author-3.jpg" alt=""></div>
+                                            <div class="comment-inner">
+                                                <div class="comment-info clearfix"><strong>Edward Chapman</strong><div class="comment-time">26 Nov,2018 At 8:30am</div></div>
+                                                <div class="text">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward</div>
+                                                <a class="comment-reply" href="#"><span class="icon fa fa-mail-reply"></span> Reply</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- end item -->
+
+                    </div>
+                </div>
+                    
+            </div>
+        </div>
+            
+    </div>
+
+</div>
+<!--End pagewrapper-->
+
+
+<script src="js/jquery.js"></script> 
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/owl.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/element-in-view.js"></script>
+<script src="js/knob.js"></script>
+<script src="js/validate.js"></script>
+<script src="js/mousemoveparallax.js"></script>
+<script src="js/pagenav.js"></script>
+<script src="js/jquery-type.js"></script>
+<script src="js/jquery.nicescroll.min.js"></script>
+<script src="js/particle-alone.js"></script>
+<script src="js/script.js"></script>
+
+<!--Google Map APi Key-->
+<script src="http://ditu.google.cn/maps/api/js?key=AIzaSyATY4Rxc8jNvDpsK8ZetC7JyN4PFVYGCGM"></script>
+<script src="js/gmaps.js"></script>
+<script src="js/map-script.js"></script>
+<!--End Google Map APi-->
+
+</body>
+</html>
